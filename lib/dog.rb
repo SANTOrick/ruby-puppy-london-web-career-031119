@@ -1,8 +1,6 @@
 class Dog
 attr_accessor :name
 
-def 
-
 @@all = []
 
 def self.clear_all
