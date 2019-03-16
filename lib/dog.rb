@@ -4,7 +4,7 @@ attr_accessor
 @@all = []
 
 def self.clear_all
-  @@.all.clear
+  @@all.clear
 end
 
 
