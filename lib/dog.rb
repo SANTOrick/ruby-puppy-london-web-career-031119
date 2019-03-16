@@ -4,7 +4,7 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
-    @@all << name
+    @@all << self
   end
 
 def self.clear_all
@@ -12,7 +12,7 @@ def self.clear_all
 end
 
 def self.all
-  @@all.each { |dog| puts "#{self.name}" }
+  @@all.each { |dog| puts "#{dog}" }
 end
 
 end
