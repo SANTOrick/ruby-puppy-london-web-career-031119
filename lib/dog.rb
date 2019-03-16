@@ -15,8 +15,7 @@ end
 
 def self.all
   @@all.each { |dog| puts "#{name}" }
-  binding.pry
-  puts "WHW"
 end
-
+binding.pry
+puts "WHW"
 end
