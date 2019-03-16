@@ -14,10 +14,9 @@ def self.clear_all
 end
 
 def self.all
+  @@all.each { |dog| puts "#{name}" }
   binding.pry
   puts "WHW"
-  @@all.each { |dog| puts "#{name}" }
-
 end
 
 end
